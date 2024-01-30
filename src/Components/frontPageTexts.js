@@ -4,11 +4,11 @@ function FrontPageTexts() {
   return (
     <div className="container d-flex flex-column p-5 m-0">
       <p className="fs-1 mb-5 text-white responsive-width">
-        ERP software specifically designed for small and medium-sized 
+        ERP software specifically designed for small and medium-sized
         manufacturing enterprises, emphasizing user-friendliness.
       </p>
 
-      <ol className="text-white custom fs-5" >
+      <ol className="text-white custom fs-5">
         <li>
           Scale your business with software that is more user-friendly than
           other ERP.

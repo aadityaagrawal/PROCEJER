@@ -43,31 +43,27 @@ function Features() {
   ];
 
   return (
-<>
-<Subscribe />
-<div className="container px-5">
-
-       
-        
-      <div className="fs-4 mb-5 fw-bold text-center">
-        What we are goining to offer !
-      </div>
-      <div className="row pb-4">
-        {data.map((element, index) => (
-          <div key={index} className="col-lg-4 col-md-4 pb-5">
-            <div className="service-box d-flex align-items-end">
-              <img src={element.image} alt={element.heading} />
-              <div className="content">
-                <p className="fs-6 mb-0 fw-bold">{element.heading}</p>
-                <p className="text-muted m-0">{element.content}</p>
+    <>
+      <Subscribe />
+      <div className="container px-5">
+        <div className="fs-4 mb-5 fw-bold text-center">
+          What we are goining to offer !
+        </div>
+        <div className="row pb-4">
+          {data.map((element, index) => (
+            <div key={index} className="col-lg-4 col-md-4 pb-5">
+              <div className="service-box d-flex align-items-end">
+                <img src={element.image} alt={element.heading} />
+                <div className="content">
+                  <p className="fs-6 mb-0 fw-bold">{element.heading}</p>
+                  <p className="text-muted m-0">{element.content}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-</>
-    
+    </>
   );
 }
 

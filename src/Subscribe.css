@@ -1,14 +1,12 @@
 .subscribe {
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100vw;
-    height: 100vh;
-
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (min-width: 768px) {
-    .subscribe {
-        background-image: url("./Assets/Images/DeskTop-Monitor.svg");
-    }
+  .subscribe {
+    background-image: url("./Assets/Images/DeskTop-Monitor.svg");
+  }
 }

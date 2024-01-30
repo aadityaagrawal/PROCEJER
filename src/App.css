@@ -1,29 +1,28 @@
-.frontPage{
-    background-image: url("./Assets/Images/cover.svg");
-    background-size: cover;
-    
+.frontPage {
+  background-image: url("./Assets/Images/cover.svg");
+  background-size: cover;
 }
 
 .service-box img {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
-.custom{
-    list-style-image: url("./Assets/Images/bullet.svg");
+.custom {
+  list-style-image: url("./Assets/Images/bullet.svg");
 }
 
-.custom li{
-    margin-bottom: 4px;
+.custom li {
+  margin-bottom: 4px;
 }
 
 .responsive-width {
-    width: 50%;
-  
-    @media (max-width: 767px) {
-        width: 100%; 
-      }
-    
-      @media (min-width: 768px) and (max-width: 991px) {
-        width: 75%; 
-      }
+  width: 50%;
+
+  @media (max-width: 767px) {
+    width: 100%;
   }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 75%;
+  }
+}
