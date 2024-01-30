@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg" className="bg-dark px-5">
+    <Navbar expand="lg" className="px-5">
       <Navbar.Brand href="#home">
         <div className="d-flex align-items-center">
           <img src={logo} height={32} alt="Logo" className="mr-4"></img>

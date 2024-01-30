@@ -1,7 +1,32 @@
 .frontPage{
-    background-image: url("./Assets/Images/cover.svg");
+    background-image: url("./Assets/Images/cover.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 90%;
 }
+
+.service-box img {
+    margin-right: 16px;
+    /* height: 56px; */
+}
+
+.custom{
+    list-style-image: url("./Assets/Images/bullet.svg");
+}
+
+.custom li{
+    margin-bottom: 4px;
+}
+
+.responsive-width {
+    width: 50%; /* Default width for larger screens */
+  
+    @media (max-width: 767px) {
+        width: 100%; /* Change width to 100% for screens smaller than 768px (phones) */
+      }
+    
+      @media (min-width: 768px) and (max-width: 991px) {
+        width: 75%; /* Adjust the width for tablets (between 768px and 991px) */
+      }
+  }

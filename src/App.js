@@ -4,25 +4,28 @@ import FrontPage from "./frontPage.js";
 import "./App.css";
 import NavigationBar from "./Components/nav_bar.js";
 import Footer from "./Components/footer.js";
-import Information_Screen from "./Components/Information_Screen.js";
+import InformationScreen from "./Components/Information_Screen.js";
 import Hiring from "./Components/hiring.js";
+import Features from "./Components/features.js";
+
 
 function App() {
   const fullScreenDivStyle = {
     width: "100vw",
     height: "100vh",
-    // backgroundColor: 'lightgray',
   };
 
   return (
     <div className="App">
-      {/* <div style={fullScreenDivStyle} className="frontPage">
+      <div style={fullScreenDivStyle} className="frontPage">
         <FrontPage />
-      </div> */}
-      <NavigationBar />
-      <div className="secondPage">
-      <Information_Screen />
       </div>
+
+      <Features />
+      <div className="secondPage">
+        <InformationScreen />
+      </div>
+     
       <Hiring />
       <Footer />
     </div>

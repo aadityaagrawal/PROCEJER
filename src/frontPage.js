@@ -10,18 +10,13 @@ function FrontPage() {
   };
 
   return (
-
-    
     <div
-      className="homePage m-0 d-flex flex-column justify-content-between p-0"
+      className="homePage m-0 d-flex flex-column justify-content-between p-0 "
       style={fullScreenDivStyle}
     >
-       
       <NavigationBar />
       <FrontPageTexts />
-      <div className="d-flex justify-content-end m-0">
-        <BootButtton />
-      </div>
+      
     </div>
   );
 }
