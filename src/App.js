@@ -20,8 +20,7 @@ function App() {
       <div style={fullScreenDivStyle} className="frontPage">
         <FrontPage />
       </div>
-
-      <Features />
+      <Features id="features" />
       <div className="secondPage">
         <InformationScreen />
       </div>

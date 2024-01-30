@@ -1,7 +1,14 @@
-/* .subscribe{
-    background-image: url("./Assets/Images/blurred-background.jpg");
+.subscribe {
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 10%;
+    width: 100vw;
+    height: 100vh;
+
+
 }
- */
+
+@media (min-width: 768px) {
+    .subscribe {
+        background-image: url("./Assets/Images/DeskTop-Monitor.svg");
+    }
+}

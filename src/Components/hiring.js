@@ -7,7 +7,7 @@ function Hiring() {
         <div className='col d-flex align-items-center justify-content-center pb-4' >
         <img src={hiring} alt='Hiring' />
       </div>
-        <div className='col'>
+        <div className='col justify-content-center'>
             <p className='fs-4 fw-bold'>
         Hiring Notice: UX/UI Designers
             </p>

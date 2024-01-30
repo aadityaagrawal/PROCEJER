@@ -23,7 +23,7 @@ function InformationScreen() {
       </div>
       <InfoComponent />
 
-      <div className="fs-4 fw-bold pb-2">
+      <div className="fs-4 fw-bold pb-2 ">
         <div className="d-flex">
           <img src={chatIcon} height={"48px"} alt="Chat icon"></img>
           &nbsp; Can do more with Procejer.com

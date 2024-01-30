@@ -1,22 +1,15 @@
 import React from 'react';
 import Desktop from '../Assets/Images/DeskTop-Monitor.svg';
-import BlurredBackground from "../Assets/Images/blurred-background.jpg"
 import "../Subscribe.css"
 
 function Subscribe() {
     
   return (
-    <div className="container subscribe">
-      <div className="fs-4 fw-bold text-center my-5">
+    <div className="container-fluid subscribe d-flex flex-column">
+      <div className="fs-4 fw-bold text-center py-5">
         Still using “Conventional Methods” to manage your manufacturing business?
       </div>
-      <div className="d-md-flex align-items-center">
-        <img
-          src={Desktop}
-          className="img-fluid d-none d-md-block"
-          alt="Desktop"
-          style={{ maxWidth: '50%', height: 'auto' }}
-        />
+      <div className='container b'>
         <div className="p-4">
           <p className="fw-bold fs-5 p-3">
             Procejer.com comes equipped with a range of features to assist in inventory management,

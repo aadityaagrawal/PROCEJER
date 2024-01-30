@@ -43,10 +43,11 @@ function Features() {
   ];
 
   return (
+<>
+<Subscribe />
+<div className="container px-5">
 
-    <div className="container p-4">
-
-        <Subscribe />
+       
         
       <div className="fs-4 mb-5 fw-bold text-center">
         What we are goining to offer !
@@ -65,6 +66,8 @@ function Features() {
         ))}
       </div>
     </div>
+</>
+    
   );
 }
 
