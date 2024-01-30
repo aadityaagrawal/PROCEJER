@@ -16,9 +16,7 @@ function NavigationBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light"/>
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav>
-          <Nav.Link href="#about" className="text-dark text-white fw-light border-right">
-            About Us
-          </Nav.Link>
+          
           <Nav.Link
             href="#features"
             className="text-dark text-white fw-light border-right"
@@ -29,10 +27,10 @@ function NavigationBar() {
             Career
           </Nav.Link>
           <Nav.Link href="#inquire" className="text-dark text-white fw-light border-right">
-            Contact
+            Contact Us
           </Nav.Link>
-          <Nav.Link href="#latest" className="text-dark text-white fw-light">
-            Latest
+          <Nav.Link href="#about" className="text-dark text-white fw-light border-right">
+            About Us
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
