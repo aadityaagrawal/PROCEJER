@@ -7,7 +7,7 @@ function NavigationBar() {
     <Navbar expand="lg" className="px-5">
       <Navbar.Brand href="#home">
         <div className="d-flex align-items-baseline py-3">
-          <img src={logo} height={52} alt="Logo"></img>
+          <img src={logo} height={48} alt="Logo"></img>
         </div>
       </Navbar.Brand>
 

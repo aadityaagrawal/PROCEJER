@@ -12,6 +12,7 @@
     background-image: url("./Assets/Images/DeskTop-Monitor.svg");
     height: 100vh;
     background-position:center;
+    margin-bottom: 0px;
   }
 
   .subscribe .b{
