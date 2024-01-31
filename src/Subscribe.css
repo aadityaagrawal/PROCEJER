@@ -2,11 +2,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  margin-bottom: 50px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
+
+
   .subscribe {
     background-image: url("./Assets/Images/DeskTop-Monitor.svg");
+    height: 100vh;
+    background-position:center;
+  }
+
+  .subscribe .b{
+    margin-top: 6rem;
+    width: 35%;
+    float: right;
   }
 }

@@ -16,7 +16,7 @@ function Hiring() {
           encouraged to apply. Please submit your application along with your
           portfolio. Exciting opportunities await!
         </p>
-        <p className="text-danger fw-bold">Apply at - apply@procejer.com</p>
+        <a href="mailto:apply@procejer.com" className="text-danger fw-bold text-decoration-none">Apply at - apply@procejer.com</a>
       </div>
     </div>
   );
