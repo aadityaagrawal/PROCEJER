@@ -3,7 +3,8 @@ import "../Subscribe.css";
 
 function Subscribe() {
   return (
-    <div className="container-fluid subscribe d-flex flex-column">
+
+    <div className="container-fluid subscribe d-flex flex-column" style={{minHeight:"60vh", height:"auto"}}>
       <div className="fs-4 fw-bold text-center pt-5">
         Still using “Conventional Methods” to manage your manufacturing
         business?

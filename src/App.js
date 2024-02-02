@@ -10,7 +10,8 @@ import Features from "./Components/features.js";
 function App() {
   
   const fullScreenDivStyle = {
-    height: "100vh",
+    minHeight : "100vh",
+    height: "auto",
   };
 
 

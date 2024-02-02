@@ -7,9 +7,9 @@ function Hiring() {
       <div className="col d-flex align-items-center justify-content-center pb-4">
         <img src={hiring} alt="Hiring" />
       </div>
-      <div className="col justify-content-center">
-        <p className="fs-4 fw-bold">Hiring Notice: UX/UI Designers</p>
-        <p className="fw-lighter my-4" style={{ textAlign: "justify" }}>
+      <div className="col justify-content-center px-5">
+        <p className="fs-4 fw-bold ">Hiring Notice: UX/UI Designers</p>
+        <p className="fw-lighter my-4 " style={{ textAlign: "justify" }}>
           Join our team for the development of our upcoming ERP solution! We are
           seeking talented individuals with a graduation degree from a reputed
           design institute. While experience is an advantage, freshers are

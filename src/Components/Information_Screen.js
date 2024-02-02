@@ -10,7 +10,7 @@ function InformationScreen() {
     >
       <div className="fs-4 p-4 fw-bold">Explore the Procejer's Suite</div>
       <div
-        className="pb-5"
+        className="pb-5 px-5"
         style={{
           textAlign: "center",
           fontWeight: "lighter",
@@ -23,14 +23,14 @@ function InformationScreen() {
       </div>
       <InfoComponent />
 
-      <div className="fs-4 fw-bold pb-2 ">
+      <div className="fs-4 fw-bold pb-2 px-5">
         <div className="d-flex">
           <img src={chatIcon} height={"48px"} alt="Chat icon"></img>
           &nbsp; Can do more with Procejer.com
         </div>
       </div>
       <div
-        className="pb-5"
+        className="pb-5 px-5"
         style={{
           textAlign: "center",
           fontWeight: "lighter",
