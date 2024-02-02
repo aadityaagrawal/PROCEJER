@@ -8,16 +8,18 @@ import Hiring from "./Components/hiring.js";
 import Features from "./Components/features.js";
 
 function App() {
+  
   const fullScreenDivStyle = {
     height: "100vh",
   };
+
 
   return (
     <div className="App">
       <div style={fullScreenDivStyle} className="frontPage">
         <FrontPage />
       </div>
-      <Features id="features" />
+      <Features />
       <div className="secondPage">
         <InformationScreen />
       </div>

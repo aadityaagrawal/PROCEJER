@@ -3,7 +3,7 @@ import hiring from "../Assets/Images/hiring.svg";
 
 function Hiring() {
   return (
-    <div className="row p-3 container my-5">
+    <div className="row p-3 container my-5" id="career">
       <div className="col d-flex align-items-center justify-content-center pb-4">
         <img src={hiring} alt="Hiring" />
       </div>

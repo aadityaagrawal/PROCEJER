@@ -46,7 +46,7 @@ function Features() {
     <>
       <Subscribe />
       <div className="container px-5">
-        <div className="fs-4 mb-5 fw-bold text-center">
+        <div className="fs-4 mb-5 fw-bold text-center" id="features" >
           What we are goining to offer !
         </div>
         <div className="row pb-4">

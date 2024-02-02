@@ -7,7 +7,7 @@ function NavigationBar() {
     <Navbar expand="lg" className="px-5">
       <Navbar.Brand href="#home">
         <div className="d-flex align-items-baseline py-3">
-          <img src={logo} height={48} alt="Logo"></img>
+          <img src={logo} height={40} alt="Logo"></img>
         </div>
       </Navbar.Brand>
 
@@ -27,7 +27,7 @@ function NavigationBar() {
             Career
           </Nav.Link>
           <Nav.Link
-            href="#inquire"
+            href="#about"
             className="text-dark text-white fw-light border-right fs-5"
           >
             Contact Us

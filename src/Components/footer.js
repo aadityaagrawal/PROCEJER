@@ -6,7 +6,7 @@ import youtubeLogo from "../Assets/Images/youtube_icons.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white text-center text-lg-start px-5 py-3">
+    <footer className="bg-dark text-white text-center text-lg-start px-5 py-3" id="about">
       <div>
         <p style={{ textAlign: "justify", fontWeight: "lighter" }}>
           <b>Company Overview: </b> Procejer.com stands at the forefront of
